@@ -1,0 +1,353 @@
+.btnAbsolute{
+    position: absolute!important;
+    bottom: 0!important;
+    left:0!important;
+}
+.m-portlet{margin-bottom: 0.2rem!important}
+.evento_direccion, .gasto_newConcepto, .impuesto_newServicio, .isRotativoGasto, .isRotativoImpuesto{
+    height: 0px;
+    opacity: 0;
+}
+.foot_btn{
+  margin-top: 20px;
+}
+@media screen and (min-width: 800px) {
+  .col-lg-2-small{
+    max-width: 14.2%;
+  }
+}
+td .m-badge{
+  margin-bottom: 5px!important;
+  margin-top: 5px!important;
+  color: white!important;
+}
+.img-logo{
+  max-width: 200px!important;
+  border-radius: 5px!important;
+}
+.btn-edit-gasto,.btn-edit-impuesto{
+    position: absolute!important;
+    left: 5px;
+    top: 2px;
+}
+.btn-edit-logo,.btn-edit-profile-img{
+    position: absolute!important;
+    right: 25px;
+    top: 5px;
+}
+.btn-delete-gasto,.btn-delete-impuesto{
+    position: absolute!important;
+    left: 30px;
+    top: 2px;
+}
+@media screen and (max-device-width: 850px) {
+    .steps-nav{
+      display: none;
+  }
+}
+.la-whatsapp{
+  color: green;
+}
+.div-rota{
+  margin-top: 35px!important;
+}
+.textarea-contrato .trumbowyg-editor{
+  min-height: 300px !important;
+}
+.white{color: white!important};
+.paddingCheck{padding-top: 35px}
+.checkMargin{margin-left: 10px}
+.txt-a-center{text-align: center;};
+.textareaEvento, .textareaGasto{width: 100%;height: 20px!important;resize: none;}
+.m-bot-15{margin-bottom: 15px!important;}
+.m-top-27{margin-top: 27px!important;}
+#ajax-load {
+    z-index: 9999;
+    position: fixed; /*Important to cover the screen in case of scolling content*/
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-align: center;
+    background: rgba(200,200,200,0.5) ; /*.gif file or just div with message etc. however you like*/
+}
+.disabled {
+    pointer-events:none; /* No cursor */
+    background-color: #eee; /* Gray background */
+}
+.m-left-5{margin-left: 5px!important}
+.cienK{width: 100%}
+.btn-cien{width: 100%!important;text-align: left!important;}
+.motivoInput{width: 100%;border: none;outline: 0px}
+.motivoSave{-webkit-border-top-right-radius: 3px;-webkit-border-bottom-right-radius: 3px;-moz-border-radius-topright: 3px;-moz-border-radius-bottomright: 3px;border-top-right-radius: 3px;border-bottom-right-radius: 3px;background: #69ca92;float: left;width: 30px;height: 33px;position: absolute;right: 0;top: 0;z-index: 999;    text-align: center;color: white;line-height: 40px;border-bottom: 1px solid #67b771;border-right: 1px solid #67b771;border-top: 1px solid #67b771;}
+.cambiarColor{top: 0;left: 0;position: absolute;width: 25px;height: 33px;}
+.cambiarColorInput{width: 1px;height: 1px;opacity: 0;position: absolute;left: 24px;bottom: 5px;}
+.bulletColor{font-size: 12px;margin-right: 3px;margin-left: 3px;}
+.fc-unthemed .fc-event .fc-content:before{display: none;}
+.fc-unthemed .fc-event .fc-content{padding: 0.55rem!important;}
+.modal-open{overflow: hidden!important;padding-right: 0px!important}
+.modal-open .modal{padding-right: 0px!important}
+.row{margin: 0px!important}
+.hide{display: none!important};
+.input-medium{width: 50%!important}
+.input-group-prepend-select{min-width: 50%!important}
+.card {
+    padding: 10px;
+    margin-top: 10px!important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+}
+.cardNombre {
+    color: black;
+    font-size: 18px;
+}
+.cardTelefono {
+    color: grey;
+    font-size: 16px;
+}
+.cardTelefono:before {
+    background: url("icon.jpg") no-repeat;
+}
+.cadEmail {
+    color: grey;
+    font-size: 16px;
+}
+.m-form__group{margin:0px!important;}
+.m-form__groupOnlyPadding{padding-left: 15px!important;padding-top:5px;padding-right: 15px!important;}
+.centered{text-align: center}
+/* CHECK PARA EL ANGULO SUPERIOR DERECHO */
+.checkCorner input[type=checkbox]{position:absolute;left:-1500%}
+.checkCorner{width:auto;position:absolute;top:5px;right:24px;transform:scale(2);-moz-transform:scale(2);-o-transform:scale(2);-webkit-transform:scale(2);-ms-transform:scale(2)}
+.checkCorner span{
+    width: 12px;
+    height: 12px;
+    line-height: 10px;
+    float: left;
+    position: relative;
+    background: #d8d8d8;
+}
+.checkCorner span:after{
+    margin-left: -2px;
+    margin-top: -5px;
+    width: 5px;
+    height: 8px;
+}
+.m-left-porc-10{
+    margin-left: 10%;
+}
+/* CARD PARA Personas */
+#cardPersona {padding: 0px!important}
+#cardPersona .card-header{padding: 0.6rem 1rem!important; font-weight:500;}
+#cardPersona .card-body{padding: 0.3rem!important}
+#cardPersona .card-title{margin-bottom: 0.5rem; margin-top: 0.5rem!important}
+/* CARD PARA MONTO DE ALQUILER */
+#cardMonto {padding: 0px!important}
+#cardMonto .card-header{padding: 0.2rem 1rem!important}
+#cardMonto .card-body{padding: 0.3rem!important}
+#cardMonto .card-title{margin-bottom: 0.5rem; margin-top: 0.5rem!important}
+#cardMonto .card-text{margin-bottom: 0.5rem!important}
+/* CARD PARA IMPUESTOS */
+#cardImpuesto {padding: 0px!important}
+#cardImpuesto .card-header{padding: 0.2rem 1rem!important}
+#cardImpuesto .card-body{padding: 0.3rem!important}
+#cardImpuesto .card-title{margin-bottom: 0.5rem; margin-top: 0.5rem!important}
+#cardImpuesto .card-text{margin-bottom: 0.5rem!important; font-size: 1rem!important; font-weight: 300!important}
+/* CARD PARA GASTOS */
+#cardGasto {padding: 0px!important}
+#cardGasto .card-header{padding: 0.2rem 1rem!important}
+#cardGasto .card-body{padding: 0.3rem!important}
+#cardGasto .card-title{margin-bottom: 0.5rem; margin-top: 0.5rem!important}
+#cardGasto .card-text{margin-bottom: 0.2rem!important; font-size: 1rem!important; font-weight: 300!important}
+#cardGasto .m-checkbox-inline .m-checkbox{font-weight: 400; font-size: 0.8rem;}
+/* CARD PARA CUOTAS */
+#cardCuota {padding: 0px!important}
+#cardCuota .card-header{padding: 0.2rem 1rem!important}
+#cardCuota .card-body{padding: 0.3rem!important}
+#cardCuota .card-title{margin-bottom: 0.5rem; margin-top: 0.5rem!important}
+#cardCuota .card-text{margin-bottom: 0.5rem!important; font-size: 1rem!important; font-weight: 300!important}
+/* CARD PARA Cheques */
+#cardCheque {padding: 0px!important}
+#cardCheque .card-header{padding: 0.2rem 1rem!important}
+#cardCheque .card-body{padding: 0.3rem!important}
+#cardCheque .card-title{margin-bottom: 0.5rem; margin-top: 0.5rem!important}
+#cardCheque .card-text{margin-bottom: 0.2rem!important; font-size: 1rem!important; font-weight: 300!important}
+#cardCheque .m-checkbox-inline .m-checkbox{font-weight: 400; font-size: 0.8rem;}
+/* CARD PARA Transferencia */
+#cardTransferencia {padding: 0px!important}
+#cardTransferencia .card-header{padding: 0.2rem 1rem!important}
+#cardTransferencia .card-body{padding: 0.3rem!important}
+#cardTransferencia .card-title{margin-bottom: 0.5rem; margin-top: 0.5rem!important}
+#cardTransferencia .card-text{margin-bottom: 0.2rem!important; font-size: 1rem!important; font-weight: 300!important}
+#cardTransferencia .m-checkbox-inline .m-checkbox{font-weight: 400; font-size: 0.8rem;}
+/*
+**
+** CSS de celular mobile para enviar mensajes de texto
+**
+*/
+.iphone {
+  box-shadow: inset 0 0 3px 0 rgba(0,0,0,0.2), 0 0 0 1px #999, 0 0 30px 0px rgba(0,0,0,0.7);
+  border: 5px solid #d9dbdc;
+  background: #f8f8f8;
+  padding: 15px;
+  border-radius: 50px;
+  height: 540px;
+  width: 300px;
+  position: relative;
+  margin: 30px auto;  
+  transform: scale(.8);
+}
+
+.iphone-top {
+  padding: 5px 50px 10px;
+  position: relative; 
+}
+.speaker {
+  display: block;
+  width: 70px;
+  height: 6px;
+  margin: 0 auto;
+  border-radius: 6px;
+  background: #292728;
+}
+.camera {
+  display: block;
+  margin: 0 auto;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  margin-bottom: 13px;
+  background: #333;
+}
+.sensor {
+  display: block;
+  width: 15px;
+  height: 15px;
+  float: left;
+  background: #333;
+  margin-top: -5px;
+  border-radius: 50%;
+}
+
+.top-bar, .bottom-bar {
+  display: block;
+  width: 423px;
+  height: 15px;
+  position: absolute;
+  left: -5px;
+}
+.top-bar {
+  top: 65px;
+}
+.bottom-bar {
+  bottom: 65px;
+}
+.iphone-screen {
+  background: #eee;
+  border: 1px solid #fff;
+  height: 360px;
+  width: 260px;
+  margin: 0 auto;
+  border: 2px solid rgba(0,0,0,0.9);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.on-off, .up, .down, .sleep {
+  display: block;
+  background: #CCC;
+  position: absolute;
+  border-radius: 2px 0px 0px 2px;
+}
+.on-off {
+  height: 40px;
+  width: 3px;
+  top: 80px;
+  left: -8px;
+}
+.up, .down, .sleep {
+  height: 40px;
+  width: 5px;
+  left: -10px;
+}
+.up {
+  top: 150px;
+}
+.down {
+  top: 200px;
+}
+.sleep {
+  left: auto;
+  right: -10px;
+  top: 90px;    
+  border-radius: 0px 2px 2px 0px;
+}
+.iphone-bottom {
+  padding: 0px 0 0;
+}
+.iphone-bottom >span{
+  display: block;
+  margin: 0 auto;
+  width: 68px;
+  height: 68px;
+  background: #ccc;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #303233 0%, #b5b7b9 50%, #f0f2f2 69%, #303233 100%);
+  position: relative;
+}
+.iphone-bottom >span:after{
+  content: ""; 
+  display: block;
+  width: 60px;
+  height: 60px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  left: 4px;
+  top: 4px;
+}
+.pac-container {
+  z-index: 1051 !important;
+}
+/*
+**
+** FIN CSS de celular mobile para enviar mensajes de texto
+**
+*/
+
+.m-topbar__username{padding-left:15px;text-transform:initial!important;color:#444!important}
+.m-aside-menu.m-aside-menu--skin-dark .m-menu__nav > .m-menu__section .m-menu__section-text { 
+  color: #dbdbdb;
+}
+.m-aside-menu.m-aside-menu--skin-dark .m-menu__nav > .m-menu__item > .m-menu__heading .m-menu__link-icon, .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav > .m-menu__item > .m-menu__link .m-menu__link-icon {
+  color: white;
+}
+.m-aside-menu.m-aside-menu--skin-dark .m-menu__nav > .m-menu__item > .m-menu__heading .m-menu__link-text, .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav > .m-menu__item > .m-menu__link .m-menu__link-text,
+.m-aside-menu.m-aside-menu--skin-dark .m-menu__nav > .m-menu__item > .m-menu__heading .m-menu__ver-arrow, .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav > .m-menu__item > .m-menu__link .m-menu__ver-arrow{
+  color: white;
+}
+.m-aside-menu.m-aside-menu--skin-dark .m-menu__nav > .m-menu__item.m-menu__item--active > .m-menu__heading .m-menu__link-text, .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav > .m-menu__item.m-menu__item--active > .m-menu__link .m-menu__link-text {
+  color: white;
+}
+.m-aside-menu.m-aside-menu--skin-dark .m-menu__nav > .m-menu__item.m-menu__item--active > .m-menu__heading .m-menu__link-icon, .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav > .m-menu__item.m-menu__item--active > .m-menu__link .m-menu__link-icon {
+  color: white;
+}
+.m-aside-menu.m-aside-menu--skin-dark .m-menu__nav > .m-menu__item:not(.m-menu__item--parent):not(.m-menu__item--open):not(.m-menu__item--expanded):not(.m-menu__item--active):hover > .m-menu__heading .m-menu__link-text, .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav > .m-menu__item:not(.m-menu__item--parent):not(.m-menu__item--open):not(.m-menu__item--expanded):not(.m-menu__item--active):hover > .m-menu__link .m-menu__link-text,
+.m-aside-menu.m-aside-menu--skin-dark .m-menu__nav > .m-menu__item:not(.m-menu__item--parent):not(.m-menu__item--open):not(.m-menu__item--expanded):not(.m-menu__item--active):hover > .m-menu__heading .m-menu__ver-arrow, .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav > .m-menu__item:not(.m-menu__item--parent):not(.m-menu__item--open):not(.m-menu__item--expanded):not(.m-menu__item--active):hover > .m-menu__link .m-menu__ver-arrow,
+.m-aside-menu.m-aside-menu--skin-dark .m-menu__nav > .m-menu__item:not(.m-menu__item--parent):not(.m-menu__item--open):not(.m-menu__item--expanded):not(.m-menu__item--active):hover > .m-menu__heading .m-menu__link-icon, .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav > .m-menu__item:not(.m-menu__item--parent):not(.m-menu__item--open):not(.m-menu__item--expanded):not(.m-menu__item--active):hover > .m-menu__link .m-menu__link-icon,
+.m-aside-menu.m-aside-menu--skin-dark .m-menu__nav > .m-menu__item.m-menu__item--open > .m-menu__heading .m-menu__link-text, .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav > .m-menu__item.m-menu__item--open > .m-menu__link .m-menu__link-text,
+.m-aside-menu.m-aside-menu--skin-dark .m-menu__nav > .m-menu__item.m-menu__item--open > .m-menu__heading .m-menu__link-icon, .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav > .m-menu__item.m-menu__item--open > .m-menu__link .m-menu__link-icon,
+.m-aside-menu.m-aside-menu--skin-dark .m-menu__nav > .m-menu__item.m-menu__item--open > .m-menu__heading .m-menu__ver-arrow, .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav > .m-menu__item.m-menu__item--open > .m-menu__link .m-menu__ver-arrow{
+  color:#fff;
+}
+.m-aside-menu .m-menu__nav > .m-menu__item .m-menu__submenu .m-menu__item > .m-menu__heading .m-menu__link-bullet, .m-aside-menu .m-menu__nav > .m-menu__item .m-menu__submenu .m-menu__item > .m-menu__link .m-menu__link-bullet,
+.m-aside-menu.m-aside-menu--skin-dark .m-menu__nav > .m-menu__item .m-menu__submenu .m-menu__item > .m-menu__heading .m-menu__link-text, .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav > .m-menu__item .m-menu__submenu .m-menu__item > .m-menu__link .m-menu__link-text{
+  color: white;
+}
+.m-aside-menu.m-aside-menu--skin-dark .m-menu__nav > .m-menu__item .m-menu__submenu .m-menu__item > .m-menu__heading .m-menu__link-text, .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav > .m-menu__item .m-menu__submenu .m-menu__item > .m-menu__link .m-menu__link-text {
+  color: white;
+}
+.m-aside-menu.m-aside-menu--skin-dark .m-menu__nav > .m-menu__item .m-menu__submenu .m-menu__item:not(.m-menu__item--parent):not(.m-menu__item--open):not(.m-menu__item--expanded):not(.m-menu__item--active):hover > .m-menu__heading .m-menu__link-text, .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav > .m-menu__item .m-menu__submenu .m-menu__item:not(.m-menu__item--parent):not(.m-menu__item--open):not(.m-menu__item--expanded):not(.m-menu__item--active):hover > .m-menu__link .m-menu__link-text{
+  color:#fff
+}

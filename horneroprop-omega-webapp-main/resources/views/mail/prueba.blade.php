@@ -1,0 +1,3 @@
+Email de prueba:
+
+{{$body}}
